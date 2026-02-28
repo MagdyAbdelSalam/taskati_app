@@ -1,49 +1,39 @@
-🚀 Taskati – Smart To-Do App
+# 🚀 Taskati – Smart To-Do App
 
-Modern, clean, and scalable To-Do application built with Flutter following real-world architecture practices.
+A modern, clean, and scalable To-Do application built with Flutter using real-world architecture practices.
 
-👨‍💻 Developer
+---
 
-Mohamed Magdy
+## 👨‍💻 Developer
+Mohamed Magdy  
 Flutter Developer (Learning & Building Real Projects)
 
-📱 Overview
+---
 
-Taskati is a production-structured task management app focused on:
+## 📱 Overview
 
-Clean Architecture
-
-Scalable feature-based structure
-
-Smooth animations
-
-Local persistence
-
-Modern UI with Dark Mode support
+Taskati is a production-structured task management app focused on clean architecture, scalability, and smooth user experience.
 
 This project reflects my practical learning journey in Flutter while applying professional development standards.
 
-✨ Key Features
+---
 
-Add / Delete / Complete tasks
+## ✨ Key Features
 
-Swipe gestures (Left → Delete, Right → Complete)
+- Add / Delete / Complete Tasks  
+- Swipe Left → Delete  
+- Swipe Right → Mark as Completed  
+- Task Filtering (All – To Do – Completed)  
+- Date Selection (Past dates disabled)  
+- Time Validation (Start time must be before End time)  
+- Profile Editing (Name & Image)  
+- Dark Mode with instant toggle  
+- Persistent Local Storage using Hive  
+- Animated task list & empty state UI  
 
-Task filtering (All – To Do – Completed)
+---
 
-Date selection (No past dates allowed)
-
-Time validation (Start time < End time)
-
-Profile editing (Name & Image)
-
-Dark Mode with instant toggle
-
-Persistent local storage using Hive
-
-Animated task list & empty states
-
-🏗 Architecture
+## 🏗 Architecture
 
 Feature-based Clean Architecture structure:
 
@@ -58,64 +48,55 @@ lib/
 
 Layers:
 
-UI Layer (Screens & Widgets)
+- UI Layer (Screens & Reusable Widgets)
+- State Management Layer (Cubit – flutter_bloc)
+- Data Layer (Hive Models & Repositories)
 
-State Management (Cubit – flutter_bloc)
+---
 
-Data Layer (Hive Models & Repositories)
+## 🛠 Tech Stack
 
-🛠 Tech Stack
+- Flutter  
+- flutter_bloc (Cubit)  
+- Hive (Local Database)  
+- image_picker  
+- flutter_screenutil  
+- intl  
+- google_fonts  
 
-Flutter
+---
 
-flutter_bloc (Cubit)
+## 🎨 UI & UX Highlights
 
-Hive (Local Database)
+- Responsive design across devices  
+- Smooth insert & delete animations  
+- Clean and minimal interface  
+- Color-coded tasks  
+- Global Light & Dark Theme support  
 
-image_picker
+---
 
-flutter_screenutil
+## 📈 Future Improvements
 
-intl
+- Task Editing  
+- Productivity Statistics  
+- Notifications  
+- Cloud Sync  
+- Localization  
 
-google_fonts
+---
 
-🎨 UI Highlights
-
-Responsive design
-
-Smooth insert/delete animations
-
-Clean minimal interface
-
-Color-coded tasks
-
-Global light & dark theme
-
-📈 Future Improvements
-
-Task editing
-
-Productivity statistics
-
-Notifications
-
-Cloud sync
-
-Localization
-
-⭐ Project Goal
+## 🎯 Project Goal
 
 To build a real-world structured Flutter application while mastering:
 
-State management
+- Clean Architecture  
+- State Management  
+- Local Storage  
+- Form & Time Validation  
+- Theme Management  
+- Scalable Project Structure  
 
-Clean architecture
+---
 
-Local storage
-
-Form & time validation
-
-Theme handling
-
-Scalable project organization
+⭐ If you like the project, feel free to give it a star.
