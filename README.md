@@ -1,16 +1,121 @@
-# taskati_app
+🚀 Taskati – Smart To-Do App
 
-A new Flutter project.
+Modern, clean, and scalable To-Do application built with Flutter following real-world architecture practices.
 
-## Getting Started
+👨‍💻 Developer
 
-This project is a starting point for a Flutter application.
+Mohamed Magdy
+Flutter Developer (Learning & Building Real Projects)
 
-A few resources to get you started if this is your first Flutter project:
+📱 Overview
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Taskati is a production-structured task management app focused on:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Clean Architecture
+
+Scalable feature-based structure
+
+Smooth animations
+
+Local persistence
+
+Modern UI with Dark Mode support
+
+This project reflects my practical learning journey in Flutter while applying professional development standards.
+
+✨ Key Features
+
+Add / Delete / Complete tasks
+
+Swipe gestures (Left → Delete, Right → Complete)
+
+Task filtering (All – To Do – Completed)
+
+Date selection (No past dates allowed)
+
+Time validation (Start time < End time)
+
+Profile editing (Name & Image)
+
+Dark Mode with instant toggle
+
+Persistent local storage using Hive
+
+Animated task list & empty states
+
+🏗 Architecture
+
+Feature-based Clean Architecture structure:
+
+lib/
+ ├── core/
+ └── features/
+     ├── splash/
+     ├── auth/
+     ├── home/
+     ├── add_task/
+     └── profile/
+
+Layers:
+
+UI Layer (Screens & Widgets)
+
+State Management (Cubit – flutter_bloc)
+
+Data Layer (Hive Models & Repositories)
+
+🛠 Tech Stack
+
+Flutter
+
+flutter_bloc (Cubit)
+
+Hive (Local Database)
+
+image_picker
+
+flutter_screenutil
+
+intl
+
+google_fonts
+
+🎨 UI Highlights
+
+Responsive design
+
+Smooth insert/delete animations
+
+Clean minimal interface
+
+Color-coded tasks
+
+Global light & dark theme
+
+📈 Future Improvements
+
+Task editing
+
+Productivity statistics
+
+Notifications
+
+Cloud sync
+
+Localization
+
+⭐ Project Goal
+
+To build a real-world structured Flutter application while mastering:
+
+State management
+
+Clean architecture
+
+Local storage
+
+Form & time validation
+
+Theme handling
+
+Scalable project organization
